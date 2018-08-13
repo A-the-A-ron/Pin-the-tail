@@ -45,7 +45,7 @@ namespace ConsoleApp1
                     {
                         call = 2;
                     }
-                    int toss = rnd.Next(1, 4);
+                    int toss = rnd.Next(0, 3);
                     if (toss == call)
                     {
                         Console.WriteLine("You called it. Make your guess.");
